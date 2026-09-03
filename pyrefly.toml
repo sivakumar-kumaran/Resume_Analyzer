@@ -1,0 +1,19 @@
+project-includes = ["backend/app"]
+project-excludes = [
+    "frontend",
+    "backend/venv",
+    "**/__pycache__",
+]
+search-path = [
+    "backend",
+    "backend/venv/Lib/site-packages",
+]
+python-platform = "win32"
+python-version = "3.12.0"
+infer-with-first-use = false
+
+[errors]
+missing-source = "ignore"
+missing-source-for-stubs = "ignore"
+missing-import = "ignore"
+unknown-name = "ignore"

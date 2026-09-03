@@ -1,0 +1,24 @@
+{
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Windows",
+  "venvPath": "backend",
+  "venv": "venv",
+  "extraPaths": [
+    "backend",
+    "backend/venv/Lib/site-packages"
+  ],
+  "include": [
+    "backend/app"
+  ],
+  "exclude": [
+    "frontend",
+    "backend/venv",
+    "**/__pycache__"
+  ],
+  "typeCheckingMode": "off",
+  "useLibraryCodeForTypes": true,
+  "reportMissingImports": "none",
+  "reportMissingModuleSource": "none",
+  "reportUndefinedVariable": "none",
+  "reportGeneralTypeIssues": "none"
+}
